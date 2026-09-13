@@ -1,113 +1,73 @@
-# 👋 Hi, I'm Hemant Kumar Behera
+# 👋 Hi, I'm Hemanta Kumar Behera
 
-### Data Science Student | Full-Stack Developer | Machine Learning Enthusiast
+### Data Scientist | Problem Solver | Software Developer
 
-Welcome to my portfolio repository! 🚀
-I'm a passionate Data Science student interested in **Machine Learning, Data Analytics, Web Development, and AI**. I enjoy building practical projects that combine data, technology, and problem-solving.
+Welcome to my personal portfolio repository! 🚀  
+I'm a Computer Science & Engineering undergraduate at **Lovely Professional University**, passionate about **Data Science, Machine Learning, Data Analytics, and Full-Stack Software Development**. I specialize in building data-driven applications that solve real-world challenges.
 
 ---
 
 ## 🧑‍💻 About Me
 
-* 🎓 Data Science Student
-* 📊 Interested in Data Analytics & Machine Learning
-* 🌐 Experienced in Full-Stack Web Development
-* 🤖 Exploring AI and intelligent applications
-* 💡 Love turning ideas into practical projects
-* 🚀 Continuously learning and improving my technical skills
+* 🎓 **B.Tech in Computer Science & Engineering** — Lovely Professional University (CGPA: 7.12)
+* 📊 **Data Science & Analytics**: Experienced in exploratory data analysis, visualization, and modeling
+* 🌐 **Full-Stack Development**: Building scalable web applications with MERN stack & modern web tech
+* 🤖 **AI & Machine Learning**: Generative AI, predictive modeling, and system design
+* 💡 Continuously learning, optimizing algorithms, and solving problems
 
 ---
 
-## 🛠️ Skills & Technologies
+## 🛠️ Technical Skills
 
-**Languages**
-
-* Python
-* JavaScript
-* HTML
-* CSS
-* SQL
-
-**Data Science & Machine Learning**
-
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-
-**Web Development**
-
-* React
-* Node.js
-* Express.js
-* REST APIs
-* Vite
-
-**Databases**
-
-* MongoDB
-* MySQL
-
-**Tools & Platforms**
-
-* Git & GitHub
-* VS Code
-* Jupyter Notebook
-* Render
+* **Languages**: Python, Java, C++, C, JavaScript, SQL
+* **Data Science & Visualization**: NumPy, Pandas, Matplotlib, Seaborn, Power BI, DAX
+* **Web Frameworks & Libraries**: React, Node.js, Express.js, HTML5, CSS3
+* **Databases**: MySQL, MongoDB, Relational Data Modeling
+* **Tools & Platforms**: Git, GitHub, VS Code, Jupyter Notebook
 
 ---
 
 ## 🚀 Featured Projects
 
 ### 🌱 EcoTrack – Corporate Carbon Analytics Dashboard
-
 A full-stack dashboard designed to **track, analyze, and visualize corporate carbon emissions data**.
+* **Tech Stack**: MongoDB, Express.js, React, Node.js
+* 🔗 [GitHub Repository](https://github.com/Hypeupbyme/ecotrack-dashboard.git) | 🌐 [Live Demo](https://ecotrack-ti4f.onrender.com/dashboard)
 
-**Tech Stack:** React, Node.js, Express.js, MongoDB, JavaScript
+### ✈️ US Flight Delay Analysis Dashboard
+An interactive Power BI analytics dashboard analyzing flight patterns, delay causes, and on-time performance across US airlines.
+* **Tech Stack**: Power BI, DAX, Data Modeling
 
-🔗 [GitHub Repository](https://github.com/Hypeupbyme/ecotrack-dashboard.git)
-🌐 [Live Demo](https://ecotrack-ti4f.onrender.com/dashboard)
-
----
-
-### 📊 Machine Learning Projects
-
-Projects exploring different machine learning concepts including:
-
-* Linear Regression
-* Logistic Regression
-* Polynomial Regression
-* Data Preprocessing
-* Model Evaluation
-* Data Visualization
+### ⚡ Electric Vehicle Population Analysis
+Comprehensive data exploration of EV adoption trends, range efficiency comparisons, and market distribution.
+* **Tech Stack**: Python, Pandas, NumPy, Matplotlib, Seaborn
 
 ---
 
-## 📚 Currently Learning
+## 📜 Verified Certifications & Credentials
 
-* Advanced Machine Learning
-* Data Analytics
-* Artificial Intelligence
-* Full-Stack Development
-* Cloud & Big Data Technologies
+* **Full Stack Development — MERN with GenAI & System Design** (CipherSchools)
+* **Oracle Data Platform 2025 Certified Foundations Associate** (Oracle)
+* **Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate** (Oracle)
+* **Database Management System – Part 1** (Infosys Springboard)
 
 ---
 
-## 🎯 Career Goal
+## 🏛️ University Experience
 
-My goal is to build a career where I can combine **Data Science, Machine Learning, and Software Development** to create impactful and intelligent solutions.
+* **Institution**: Lovely Professional University (Phagwara, Punjab, India)
+* **Program**: B.Tech in Computer Science and Engineering (2024 – 2028)
+* **Campus**: World-class computing labs, central research library, hackathons, and tech symposiums.
 
 ---
 
 ## 📫 Connect With Me
 
-* 💼 LinkedIn: *Add your LinkedIn URL*
-* 🐙 GitHub: [Hypeupbyme](https://github.com/Hypeupbyme)
-* 📧 Email: *Add your email*
+* 💼 **LinkedIn**: [hemanta-kumar-behera135](https://www.linkedin.com/in/hemanta-kumar-behera135)
+* 🐙 **GitHub**: [@Hypeupbyme](https://github.com/Hypeupbyme)
+* 📧 **Email**: [beherahemant2005@gmail.com](mailto:beherahemant2005@gmail.com)
+* 📞 **Phone**: [+91-7735893925](tel:+917735893925)
 
 ---
 
-⭐ **Thanks for visiting my portfolio!**
-
-Feel free to
+⭐ **Thanks for visiting my portfolio repository!**
