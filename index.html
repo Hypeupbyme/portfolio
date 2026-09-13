@@ -1135,17 +1135,18 @@ section{padding:104px 0;position:relative;scroll-margin-top:90px;}
   overflow:hidden;
   border:1px solid var(--border-soft);
   background:var(--panel-2);
-  height:200px;
+  height:240px;
   display:flex;
   align-items:center;
   justify-content:center;
   text-decoration:none;
-  box-shadow:0 12px 28px rgba(0,0,0,.3);
-  transition:border-color .3s ease, transform .3s ease;
+  box-shadow:0 14px 32px rgba(0,0,0,.35);
+  transition:border-color .3s ease, transform .3s ease, box-shadow .3s ease;
 }
 .uni-video-banner:hover{
-  border-color:rgba(168,85,247,.5);
+  border-color:rgba(168,85,247,.6);
   transform:translateY(-2px);
+  box-shadow:0 18px 40px rgba(168,85,247,.22);
 }
 .uni-video-banner img{
   position:absolute;
@@ -1153,27 +1154,66 @@ section{padding:104px 0;position:relative;scroll-margin-top:90px;}
   width:100%;
   height:100%;
   object-fit:cover;
-  opacity:.85;
-  transition:transform .3s ease, opacity .3s ease;
+  object-position:center;
+  opacity:.92;
+  transition:transform .4s ease, opacity .4s ease;
 }
 .uni-video-banner:hover img{
   transform:scale(1.02);
   opacity:1;
 }
+.uni-main-play-btn{
+  position:relative;
+  z-index:2;
+  width:64px;
+  height:64px;
+  border-radius:50%;
+  background:rgba(147,51,234,.92);
+  backdrop-filter:blur(6px);
+  border:2.5px solid #ffffff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  box-shadow:0 0 30px rgba(168,85,247,.7), 0 8px 24px rgba(0,0,0,.5);
+  transition:transform .3s ease, background .3s ease, box-shadow .3s ease;
+}
+.uni-main-play-btn svg{
+  margin-left:3px;
+}
+.uni-play-ripple{
+  position:absolute;
+  inset:-8px;
+  border-radius:50%;
+  border:2px solid rgba(168,85,247,.6);
+  animation:play-ripple 2s infinite ease-out;
+  pointer-events:none;
+}
+@keyframes play-ripple{
+  0%{transform:scale(0.95);opacity:0.85;}
+  100%{transform:scale(1.4);opacity:0;}
+}
+.uni-video-banner:hover .uni-main-play-btn{
+  transform:scale(1.12);
+  background:#a855f7;
+  box-shadow:0 0 40px rgba(168,85,247,.9), 0 10px 28px rgba(0,0,0,.6);
+}
 .uni-video-tag{
   position:absolute;
   bottom:14px;left:18px;
   z-index:2;
-  background:rgba(16,20,26,.8);
-  backdrop-filter:blur(6px);
+  background:rgba(16,20,26,.85);
+  backdrop-filter:blur(8px);
   border:1px solid rgba(255,255,255,.15);
-  padding:5px 12px;
+  padding:6px 14px;
   border-radius:999px;
-  font-size:.76rem;
+  font-size:.78rem;
+  font-weight:600;
   color:#fff;
   display:flex;
   align-items:center;
-  gap:6px;
+  gap:8px;
+  box-shadow:0 4px 14px rgba(0,0,0,.3);
 }
 
 /* Cards for Academics, Events, Achievements */
@@ -2085,11 +2125,15 @@ footer{padding:36px 0 46px;border-top:1px solid var(--border-soft);}
             </div>
           </div>
 
-          <a href="https://www.lpu.in/virtual-tour/" target="_blank" rel="noopener noreferrer" class="uni-video-banner" title="Explore LPU Virtual Campus Tour">
-            <img src="assets/lpu-admissions.jpg" alt="LPU Admissions Block and Central Campus">
+          <a href="https://www.lpu.in/virtual-tour/" target="_blank" rel="noopener noreferrer" class="uni-video-banner" title="Explore Lovely Professional University Campus Tour">
+            <img src="assets/lpu-aerial.jpg" alt="Lovely Professional University Campus Aerial Overview">
+            <div class="uni-main-play-btn">
+              <span class="uni-play-ripple"></span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="7 4 19 12 7 20 7 4"/></svg>
+            </div>
             <div class="uni-video-tag">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
-              Admissions Block · Click to Explore Virtual Tour
+              LPU Aerial Campus Tour · Click to Watch
             </div>
           </a>
         </div>
